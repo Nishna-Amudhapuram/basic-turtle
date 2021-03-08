@@ -1,0 +1,10 @@
+import turtle
+
+a = input("Would you like me to draw a shape? Type yes or no: ")
+if a == "yes":
+    turtle.getscreen()
+    turtle.circle(50)
+elif a == "no":
+    print("okay")
+else:
+    print("invalid input")
